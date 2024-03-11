@@ -1,0 +1,10 @@
+S - Single Responsibility Principle
+O - Open Closed Principle
+L - Liskov Substitution Principle
+I - Interface Segregation Principle
+D - Dependency Inversion Principle
+
+1) S
+----
+- "There should never be more than one reason for a class to change."
+- A class provides a very focused, single functionality, addresses a specific concern.
