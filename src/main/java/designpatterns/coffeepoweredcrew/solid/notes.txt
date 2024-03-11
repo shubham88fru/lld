@@ -8,3 +8,8 @@ D - Dependency Inversion Principle
 ----
 - "There should never be more than one reason for a class to change."
 - A class provides a very focused, single functionality, addresses a specific concern.
+
+2) O
+----
+- "Software entities (Classes, Modules, Methods etc.) should be open for extension, but closed for modif."
+- Avoid modifying existing base classes an use inheritance/overriding to extend and write modifications.
