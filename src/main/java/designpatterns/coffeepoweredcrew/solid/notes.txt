@@ -27,3 +27,13 @@ D - Dependency Inversion Principle
   to a value, we'll get the value on calling getHeight/getLength. And so, Considering Square and a Child of Rectangle
   defies the Liskov's substitution principle. Therefore, we have no option, but to break that parent-child relationship
   in case of Square and Rectangle in OOPs.
+
+ 4) I
+ ----
+ - "Clients should not be forced to depend upon interfaces that they do not use."
+ - In particular, clients should not have to depend on methods of interfaces that they don't need.
+ - Related to `Interface Pollution` problem. We shouldn't make our interfaces overly large. We shouldn't
+   cram methods in interfaces that are unrelated. Doing so unnecessarily forces the classes that wish to
+   implement such interfaces to provide implementation of methods which they don't even need.
+   e.g. throwing UnsupportedOperationException() from an implemented method etc.
+ - Write Highly Cohesive interfaces.
