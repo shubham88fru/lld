@@ -15,3 +15,15 @@ D - Dependency Inversion Principle
 - Avoid modifying existing base classes an use inheritance/overriding to extend and write modifications.
 - Basically, ab abstract base class which has some concrete methods (closed for modification) and abstract methods
   which are supposed to be overriden by subclasses (open for extension).
+
+3) L
+----
+- "We should be able to substitute base class objects with child class objects & this should not alter behavior/characteristics
+   of program."
+- Basically, liskov substitution principle will fail if the sub class modifies the behaviour/contract of the base
+  class in the overriden method. For e.g., when square was a sub class of rectangle, it was modifying the behaviour of
+  setHeight and setLength method by overriding the value of the other when any of the two was modified. And so,
+  the overriden methods in Square were actually breaking the contract guaranteed by Rectangle class that if we set Height/Length
+  to a value, we'll get the value on calling getHeight/getLength. And so, Considering Square and a Child of Rectangle
+  defies the Liskov's substitution principle. Therefore, we have no option, but to break that parent-child relationship
+  in case of Square and Rectangle in OOPs.
