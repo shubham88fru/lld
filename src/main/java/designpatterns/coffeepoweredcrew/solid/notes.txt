@@ -8,6 +8,7 @@ D - Dependency Inversion Principle
 ----
 - "There should never be more than one reason for a class to change."
 - A class provides a very focused, single functionality, addresses a specific concern.
+- A class has only a single reason for changing.
 
 2) O
 ----
@@ -28,12 +29,21 @@ D - Dependency Inversion Principle
   defies the Liskov's substitution principle. Therefore, we have no option, but to break that parent-child relationship
   in case of Square and Rectangle in OOPs.
 
- 4) I
- ----
- - "Clients should not be forced to depend upon interfaces that they do not use."
- - In particular, clients should not have to depend on methods of interfaces that they don't need.
- - Related to `Interface Pollution` problem. We shouldn't make our interfaces overly large. We shouldn't
-   cram methods in interfaces that are unrelated. Doing so unnecessarily forces the classes that wish to
-   implement such interfaces to provide implementation of methods which they don't even need.
-   e.g. throwing UnsupportedOperationException() from an implemented method etc.
- - Write Highly Cohesive interfaces.
+4) I
+----
+- "Clients should not be forced to depend upon interfaces that they do not use."
+- In particular, clients should not have to depend on methods of interfaces that they don't need.
+- Related to `Interface Pollution` problem. We shouldn't make our interfaces overly large. We shouldn't
+    cram methods in interfaces that are unrelated. Doing so unnecessarily forces the classes that wish to
+    implement such interfaces to provide implementation of methods which they don't even need.
+    e.g. throwing UnsupportedOperationException() from an implemented method etc.
+- Write Highly Cohesive interfaces. Break larger interfaces into smaller cohesive interfaces.
+
+5) D
+----
+- "A) Hi level modules should not depend upon low level modules. Both should depend upon abstractions."
+- "B) Abstractions should not depend upon details. Details should depend upon abstractions."
+- Idea is to program against interfaces instead of concretions. Assume that the container or someone will give
+  you an implementation of the interface. The provided implementation will be the one the container wants you to run.
+- This principle enforces the idea of loose coupling.
+
