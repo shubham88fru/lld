@@ -1,0 +1,7 @@
+- To create immutable classes.
+- String is an inbuilt inbuilt class.
+- Used when:
+    a) we have a complex process to construct an object involving multiple
+    steps, then builder pattern can help us.
+    b) In builder we remove the logic related to object constructions from "client"
+    code and abstract it in separate classes.
