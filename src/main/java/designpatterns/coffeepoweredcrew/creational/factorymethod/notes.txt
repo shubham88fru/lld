@@ -1,0 +1,3 @@
+- Unlike simple factory, the client doesn't need to which class's instance it needs.
+- In this pattern, we let subclasses decide which object to instantiate by overriding the
+  factory method.
