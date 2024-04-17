@@ -1,0 +1,15 @@
+- When we have two or more object which work together forming a kit or set and there can be
+multiple sets or kits that can be created by client code.
+ - Intent behind this pattern is to separate client code from concrete objects forming
+  such a set and also from the code which creates these sets.
+
+- Think the pizza builder example from christopher okhravi's class. A set of pizza toppings
+only go with a particular type of pizza, but with every type of pizza.
+
+- Implementation:
+    1. We start by studying the product sets.
+        i) Create abstract factory as an abstract class or an interface.
+        ii) Abstract factory defines abstract methods for creating products.
+        ii) Provide concrete implementation of factory for each set or products.
+    2. Abstract factory makes use of factory method pattern. Think of abstract factory as
+    an object with multiple factory methods.
