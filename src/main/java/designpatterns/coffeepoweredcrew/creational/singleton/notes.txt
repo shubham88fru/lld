@@ -1,0 +1,10 @@
+- Main problem this pattern solves is to ensure that only a single instance of this class exists.
+- Any state you add in your singleton becomes part of "global state" of your application, coz the singleton
+instance itself is a global object for the application.
+- Imp:
+    a. Class constructor must not be public. Private constructor.
+    b. subclassing/inheritance must not be allowed.
+- 3 ways to implement the pattern:
+    i. Eager singleton
+    ii. Lazy singleton
+    iii. Enum.
