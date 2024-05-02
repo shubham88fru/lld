@@ -1,0 +1,5 @@
+- Our implementations and abstractions are generally coupled to each other in normal inheritance.
+- Using bridge pattern we can decouple them o they can both change without affecting each other.
+- We achieve this fet by creating two separate inheritance hierarchies; one for implementation and
+another for abstraction.
+- We use composition to bridge these two hierarchies.
