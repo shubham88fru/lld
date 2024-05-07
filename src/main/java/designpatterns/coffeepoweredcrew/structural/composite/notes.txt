@@ -1,0 +1,5 @@
+- We have a part-whole relationship or hierarchy of objects and we want to be able to treat all
+objects in this hierarchy uniformly.
+- This is NOT a simple composition concept from object oriented programming but a further
+enhancement to that principle.
+- Think of composite patten when dealing with tree structure of objects.
