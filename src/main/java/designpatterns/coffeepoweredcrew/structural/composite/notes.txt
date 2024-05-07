@@ -3,3 +3,7 @@ objects in this hierarchy uniformly.
 - This is NOT a simple composition concept from object oriented programming but a further
 enhancement to that principle.
 - Think of composite patten when dealing with tree structure of objects.
+- Composite pattern allows us to treat all objects, whether they are using composition (composite)
+or not (leaf) in the same way. Without composite pattern client code will have to write
+code differently to handle object which has children. Composite pattern allows
+client to call a method on object and pattern takes care of handling children if present.
