@@ -1,0 +1,5 @@
+- Client has to interact with a large number of interfaces and classes in a subsystem to get result.
+So client gets tightly coupled with those interfaces and classes. Faced solves this problem.
+- Facade provides a simple and unified interface to a subsystem. Client interacts with just the facade
+now to get the same result.
+- Facade is NOT Just one to one method forwarding to other classes - its more than that.
