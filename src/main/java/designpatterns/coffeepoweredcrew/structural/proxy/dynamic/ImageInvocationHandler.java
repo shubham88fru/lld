@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.proxy.dynamic;
+package designpatterns.coffeepoweredcrew.structural.proxy.dynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -31,7 +31,7 @@ public class ImageInvocationHandler implements InvocationHandler {
 	public ImageInvocationHandler(String filename) {
 		this.filename = filename;	
 	}
-	//This method is called for eery method invocation on the proxy
+	//This method is called for every method invocation on the proxy
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		//You can implement proxy logic here 
@@ -49,6 +49,9 @@ public class ImageInvocationHandler implements InvocationHandler {
 	private Object handleRender() {
 		if(image == null) {
 			image = new BitmapImage(filename);
+			if (location != null) {
+				image.setLocation(location);
+			}
 		}
 		image.render();
 		return null;

@@ -1,6 +1,5 @@
 package designpatterns.coffeepoweredcrew.structural.proxy.dynamic;
 import designpatterns.coffeepoweredcrew.structural.proxy.Image;
-import designpatterns.coffeepoweredcrew.structural.proxy.ImageFactory;
 import designpatterns.coffeepoweredcrew.structural.proxy.Point2D;
 
 

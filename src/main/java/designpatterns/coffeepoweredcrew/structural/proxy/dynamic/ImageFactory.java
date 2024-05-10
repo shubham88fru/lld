@@ -11,6 +11,6 @@ public class ImageFactory {
 		return (Image) Proxy.newProxyInstance(Client.class.getClassLoader(),
 				new Class[]{Image.class},
 				//We provide our invocation handler to proxy
-				new com.coffeepoweredcrew.proxy.dynamic.ImageInvocationHandler(filename));
+				new ImageInvocationHandler(filename));
 	}
 }
