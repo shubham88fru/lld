@@ -1,0 +1,10 @@
+- We need to provide a placeholder or surrogate to another object.
+- Proxy acts on behalf of the object and is used for lots of reasons some of the main reasons are:
+    1. Protection Proxy - Control access to original object's operations.
+    2. Remote Proxy - Provides a local representation of a remote object.
+    3. Virtual Proxy - Delays construction of original object until absolutely necessary.
+- Client is unaware of existence of proxy.Proxy performs its work transparently.
+- Lazy loading of collections by hibernate, APO based method level security, RMI/Web service stubs are
+examples of real life proxy usage.
+- Two types - Static proxy and dynamic proxy.
+- Dynamic proxies are created during runtime (by implementing the InvocationHandler interface.)
