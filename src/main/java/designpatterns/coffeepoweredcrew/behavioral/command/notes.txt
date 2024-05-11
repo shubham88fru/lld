@@ -1,0 +1,10 @@
+- We want to represent a request or a method call as an object. Information about parameters passed
+and the actual operations is encapsulated in a object called command.
+- Advantage of command pattern is that, what would have been a method call is now an object which can be
+stored for later execution or sent to other parts of code.
+- commands typically invoke the actual operations on a receiver but contain parameters or info needed
+invocation.
+- client is responsible for creating instances of command and providing it with receiver and request
+information.
+- Commands can also implement an undo feature. Here command itself stores a snapshot of receiver.
+- We can now even queue our command objects and execute them later.
