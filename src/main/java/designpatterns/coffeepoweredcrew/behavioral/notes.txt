@@ -1,0 +1,14 @@
+- Behavioral patterns describe how classes and objects interact and communicate with each other.
+- examples:
+    - Chain of responsibility (e.g. servlets)
+    - Command
+    - Interpreter
+    - Mediator
+    - Iterator (e.g. collections in java)
+    - Memento
+    - Observer
+    - State
+    - Strategy
+    - Template Method
+    - Visitor
+    - Null Object
