@@ -1,0 +1,6 @@
+- We use interpreter when we want to process a simple "language" with rules or grammar.
+ E.g. File access requires user role and admin role.
+- Interpreter allows us to represent the rules of language or grammar in a data structure and then
+interpret sentences in that language.
+- Each class in this pattern represents a rule in the language. Classes also provide a method
+to interpret an expression.
