@@ -1,0 +1,7 @@
+- Mediator encapsulates how a set of objects interact with each other. Due to this encapsulation there is a
+loose coupling between the interacting objects.
+- Typically an object explicitly knows about another object to which it wants to interact i.e. to call a method.
+In mediator pattern this interaction is within the mediator object and interacting objects nly know about
+the mediator object.
+- Benefit of this arrangement is that the interaction can now change without needing modifications to participating
+objects. Changing the mediator allows to add/remove participants in an interaction.
