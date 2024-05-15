@@ -1,0 +1,10 @@
+- When we want to store object's state without exposing internal details about the state when we can use
+memento design pattern.
+- We can use memento design pattern to take a snapshot of object's state which can be then used to restore
+object to that particular state.
+- The main intent behind saving state is often because we want to restore the object to a saved state.
+- Using memento we can ask an object to give its state as a single, "sealed" object and store it for later use.
+This object should not expose the state for modification.
+- originator provides a method to get a memento out of it. And another method to assign it a memento,
+which results in getting the originator's state reset to the one in memento.
+- This pattern is often combined with command design pattern to provide the undo functionality in application.
