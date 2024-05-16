@@ -1,0 +1,8 @@
+- Using observer design pattern we can notify multiple objects whenever an object
+changes state.
+- This design pattern is also called as publisher-subscriber or pub-sub.
+- We are defining one-to-many dependency between objects, where many objects are listening
+for state change of a single object, without tightly coupling all of them together.
+- This pattern is often implemented where listener only gets notification that "something" has
+changed in the object's state. Listeners query back to find out more information if needed.
+This makes it more generic as different listeners may be interested in different states.
