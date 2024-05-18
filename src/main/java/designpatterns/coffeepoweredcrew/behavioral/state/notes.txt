@@ -1,0 +1,5 @@
+- State design pattern allows our objects to behave differently based on its current internal state.
+- This pattern allows to define the state specific behaviors in separate classes.
+- Operations defined in the class delegate to the current state object's implementation of that behavior.
+- State transitions can be triggerred by states themselves in which case each state knows about at least one other
+state's existence.
