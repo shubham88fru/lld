@@ -1,0 +1,13 @@
+- Strategy pattern allows us to encapsulate an algorithm in a class. So now we can configure our context or main
+object with an object of this class, to change the algorithm used to perform given operation.
+- This is really helpful if we have many possible variations of an algorithm to solve a problem.
+- A good indication for applicability of strategy pattern is if we find different algorithms/behaviors in our methods
+which are selected with conditional statements like if-else or switch-case.
+- Strategy classes are usually implemented in an inheritance hierarchy so that we can choose any one implementation
+and it'll work with our main object/context as the interface is same for all implementations.
+- Strategy pattern allows us to encapsulate algorithms in separate classes. The class using these algorithms
+(called context) can now be configured with desired implementation of an algorithm.
+- It is typically the responsibility of client code which is using our context object to configure it.
+- Strategy objects are given all the data they need by the context object. We can pass data either in form of
+arguments or pass on context object itself.
+- Strategy objects typically end up being stateless making them great candidate for flyweight pattern.
