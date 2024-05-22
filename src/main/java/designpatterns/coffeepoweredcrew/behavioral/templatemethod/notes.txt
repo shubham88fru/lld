@@ -1,0 +1,11 @@
+- Using template method pattern we define an algorithm in a method as a series of steps (method calls)
+and provide a chance for subclasses to define or redefine some of these steps.
+- The pattern works by defining abstract methods which then have to be implemented by concrete subclasses.
+These methods are like hooks which are then called template method.
+- This pattern allows to defer implementations of parts of your algorithm which can vary or change.
+- Template methods are example of inversion of control principle - Don't call us, we'll call you! And
+this is of course referring to the way template method calls other methods implemented in subclass.
+- This design patterns allows us to define a skeleton of an algorithm in base class. Steps of algorithm are defined
+as abstract method in base class.
+- One drawback of template method is algorithm implementation is now spread across multiple classes so it makes
+it slightly difficult to understand.
