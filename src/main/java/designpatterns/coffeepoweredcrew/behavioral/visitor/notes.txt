@@ -1,0 +1,9 @@
+- Visitor pattern allows us to define new operations that can be performed on an object without changing the class
+definition of the object.
+- Think of this pattern as an object ("visitor") that visits all nodes in an object structure. Eac time our visitor
+visits a particular object from the object structure, that object calls a specific method on visitor, passing itself
+as an argument.
+- Each time we need a new operation we create a subclass of visitor, implement the operation in that class and visit
+the object structure.
+- Objects themselves only implement an "accept" visit where the visitor is passed as an argument. Objects know about
+the method in visitor created specifically for the it and invoke that method inside the accept method.
