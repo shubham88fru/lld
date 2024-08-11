@@ -16,13 +16,13 @@ public class Main {
 
 	}
 
-	//A method in code that tha expects the
+	//A method in code that expects the
 	//base class as an argument. So, per Liskov's
 	//substitution principle, We should be able to
 	//pass Square (if it is a subclass of rect) also as an argument during method call
 	//and the function should just work properly. But if we actually do that
 	//the below test case will fail, when passing a square, coz, the setWidth()
-	//on a square will override will also override the previously set height of the square.
+	//on a square will also override the previously set height of the square.
 	private static void useRectangle(Rectangle rectangle) {
 		rectangle.setHeight(20);
 		rectangle.setWidth(30);
