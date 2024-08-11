@@ -13,8 +13,8 @@ D - Dependency Inversion Principle
 2) O
 ----
 - "Software entities (Classes, Modules, Methods etc.) should be open for extension, but closed for modif."
-- Avoid modifying existing base classes an use inheritance/overriding to extend and write modifications.
-- Basically, ab abstract base class which has some concrete methods (closed for modification) and abstract methods
+- Avoid modifying existing base classes and use inheritance/overriding to extend and write modifications.
+- Basically, an abstract base class which has some concrete methods (closed for modification) and abstract methods
   which are supposed to be overriden by subclasses (open for extension).
 
 3) L
