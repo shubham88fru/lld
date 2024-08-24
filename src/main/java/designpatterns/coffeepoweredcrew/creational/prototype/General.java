@@ -1,7 +1,5 @@
 package designpatterns.coffeepoweredcrew.creational.prototype;
 
-import systemdesign.chessgame.Game;
-
 //Doesn't support cloning
 public class General extends GameUnit{
 
