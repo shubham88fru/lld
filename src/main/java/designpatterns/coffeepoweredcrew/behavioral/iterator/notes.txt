@@ -1,8 +1,8 @@
 - Iterator allows a way to access elements/children of an aggregate object (an object that groups/collects
 other objects as its state) in sequence while hiding the actual internal data structure used.
-- In Java iterators are integral part of collection frameworks and they aer implementations of this
+- In Java iterators are integral part of collection frameworks and they are implementations of this
 design pattern.
 - Iterators are stateful, meaning an iterator object remembers its positions while iterating.
 - Iterators can become out of sync if the underlying collection is changed while a code is using iterator.
 - Iterators needs access to internal data structure of aggregator to provide its functionality. This usually
-means it's quite common to hae iterator implemented as inner class.
+means it's quite common to have iterator implemented as inner class.
