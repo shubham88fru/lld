@@ -8,3 +8,4 @@ invocation.
 information.
 - Commands can also implement an undo feature. Here command itself stores a snapshot of receiver.
 - We can now even queue our command objects and execute them later.
+- Invoker --> Command --> Receiver.

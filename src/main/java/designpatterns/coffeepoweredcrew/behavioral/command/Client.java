@@ -3,8 +3,13 @@ package designpatterns.coffeepoweredcrew.behavioral.command;
 public class Client {
 
 	public static void main(String[] args) throws InterruptedException {
+		//receiver -- the command will be invoked on this object.
 		EWSService service = new EWSService();
+
+		//command -- the actual command to be executed.
 		Command c1 = new AddMemberCommand("a@a.com", "spam", service);
+
+		//invoker -- will invoke the command.
 		MailTasksRunner runner = MailTasksRunner.getInstance();
 		runner.addCommand(c1);
 
