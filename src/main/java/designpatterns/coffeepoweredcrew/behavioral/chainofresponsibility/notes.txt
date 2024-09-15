@@ -5,3 +5,6 @@ object, chance to process the request.
 - We create objects which are chained together by one object knowing reference of object which is next
 in chain. We give request to first object in chain, if it can't handle that it simply passes the request
 down the chain.
+- Some interview questions that requires this pattern are:
+    -> Design ATM/Vending Machine.
+    -> Design Logger.
