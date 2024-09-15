@@ -6,6 +6,8 @@ import java.io.PrintWriter;
 
 //Abstract base class defines the template method
 public abstract class OrderPrinter {
+
+    //This is the template method which has the abstract algo (steps)
     public final void printOrder(Order order, String filename) throws IOException {
         try (PrintWriter writer = new PrintWriter(filename)) {
             writer.println(start());
