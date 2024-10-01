@@ -3,7 +3,7 @@
 - Operations defined in the class delegate to the current state object's implementation of that behavior.
 - State transitions can be triggerred by states themselves in which case each state knows about at least one other
 state's existence.
-- If we have an object whose behavior is completely ties to tis internal state which can be expressed as an
+- If we have an object whose behavior is completely tied to its internal state which can be expressed as an
 object, we can use the state pattern.
 - Each possible state value now becomes a class providing behavior specific to a state value.
 - Our main object (aka context) delegates the actual operation to its current state. States will implement
@@ -11,3 +11,4 @@ behavior which is specific to a particular state value.
 - Context object's state change is explicit now, since we change the entire state object.
 - State transitions are handled either by states themselves or context can trigger them.
 - We can re-use state objects if they don't have any instance variable and only provide behavior.
+- E.g of questions that can be solved using this design pattern - Vending machine.
