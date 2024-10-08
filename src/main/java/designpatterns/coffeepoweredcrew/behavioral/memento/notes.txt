@@ -8,3 +8,4 @@ This object should not expose the state for modification.
 - originator provides a method to get a memento out of it. And another method to assign it a memento,
 which results in getting the originator's state reset to the one in memento.
 - This pattern is often combined with command design pattern to provide the undo functionality in application.
+- This pattern is a.k.a Snapshot design pattern.
