@@ -7,3 +7,4 @@ enhancement to that principle.
 or not (leaf) in the same way. Without composite pattern client code will have to write
 code differently to handle object which has children. Composite pattern allows
 client to call a method on object and pattern takes care of handling children if present.
+- More eg that can be modeled using this pattern -> evaluate expression like (2*(1+7))
