@@ -4,3 +4,6 @@ use this object because it expects an object with different interface.
 to client's expected interface.
 - This pattern is also called as wrapper as it "wraps" existing object.
 - Two types: Object adapter (uses composition over inheritance) and Class Adapter.
+- interview question based on this pattern:
+    - Power adapter and socket.
+    - XML to JSON parser.
