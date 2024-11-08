@@ -1,8 +1,9 @@
 - Our system needs a large number of objects of a particular class and maintaining these
 instances is a performance concern.
 - Flyweight allows us to share an object in multiple contexts. But instead of sharing entire object,
-which may not be feasible, we divide the object state in tow parts: intrinsic (state that is shared in
+which may not be feasible, we divide the object state in two parts: intrinsic (state that is shared in
 every context) & extrinsic state (context specific state). We create objects with only intrinsic state
 and share them in multiple contexts.
 - Client or user of object provides the extrinsic state to object to carry out its functionality.
 - We provide a factory so client can get required flyweight objects based on some key to identify flyweight.
+- Commonly asked questions on this topic - Design a word processor, Design game.
