@@ -1,0 +1,4 @@
+- Entities:
+  - Piece: x, o, .., coordinates
+  - Board: M*M matrix
+  - Player
