@@ -1,0 +1,13 @@
+- Clarifying questions:
+  - How many entrances: 1 entrance/1 exit
+  - Different types of spots: Two wheeler, Four Wheeler.
+  - Hourly based charge or Minute based: Mix ( Can be both ways )
+  - does parking has floors?: No
+  - Should get the nearest available parking spot to the entrance.
+
+- Entities:
+  - Vehicle: Vehicle Num, Vehicle type (enum - two wheeler, four wheeler..)
+  - ticket: Entry time, parking spot
+  - entrance gate: find and return suitable parking space, generate ticket.
+  - parking spot: id, status (occupied, available, etc.), price, type
+  - exit gate: calculate charge, payment, free up parking spot.
