@@ -1,0 +1,11 @@
+- Requirement clarification:
+  - Only cars rentals or in future other vehicles can be supported? Make is extendable.
+
+- Entities:
+  - User
+  - Location
+  - Store
+  - Vehicle
+  - Reservation
+  - Bill
+  - Payment
