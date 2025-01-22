@@ -1,0 +1,12 @@
+- Clarification:
+  - How many dices? 1 but should be extensible to more dice.
+  - How many snakes and ladder ? During game setup, choose dynamically.
+  - Winning condition? till any one wins the game.
+
+- Entities:
+  - Dice
+  - Snake
+  - Ladder
+  - Board
+  - Players
+  - Cells
