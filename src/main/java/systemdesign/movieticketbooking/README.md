@@ -1,0 +1,11 @@
+- Entities:
+  - User
+  - City
+  - Movie
+  - Theater
+  - Ticket
+  - Show
+  - Seat
+  - Booking
+  - Payment
+  - Screen
