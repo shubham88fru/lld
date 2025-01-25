@@ -1,0 +1,4 @@
+- Entities:
+  - User
+  - Card
+  - ATM
