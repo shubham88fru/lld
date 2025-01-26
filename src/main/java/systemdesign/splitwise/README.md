@@ -1,0 +1,14 @@
+- Requirement gathering:
+  - Should be able to add friends.
+  - Create a group.
+  - Add friend to a group.
+  - Add expenses, in a group or individual expenses.
+  - Split expenses. - equal, percent share etc.
+  - Balance sheet of each user.
+
+- Entities:
+  - Expense
+  - Splitwise
+  - User
+  - Group
+  - Balance sheet.
